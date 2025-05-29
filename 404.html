@@ -1,0 +1,38 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>404 ERROR</title>
+    <style>
+      body {
+        background: repeating-linear-gradient(
+          to left,
+          red,
+          orange,
+          yellow,
+          green,
+          blue,
+          purple
+        );
+      } #error {
+        margin: 6px auto;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="error">
+       <img src="static">Ocorreu um problema no servidor
+       servererror:<div id="error"></div>
+    </div>
+    <script>
+        var error = document.getElementById("error")
+        var cads = false;
+        if (cads) {
+            error.value.textContent = "Servererror process";
+        } else {
+            error.value.textContent = "Server archive no search";
+        }
+    </script>
+  </body>
+</html>
