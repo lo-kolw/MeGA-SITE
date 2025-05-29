@@ -28,3 +28,44 @@
       background-color: rgb(204, 204, 204);
       padding:10px;
     }
+  #sidenav {
+        float: right;
+        width: 150px;
+        background-color: white;
+        list-style-type: none;
+         display: inline;
+         font-size: 11px;
+
+
+    } #sidenav li a {
+    color: black;
+    padding: 5px;
+    width: 90px;
+    display: block;
+    margin-left: 180px;
+    margin-bottom: 2px;
+  text-decoration: none;
+      border: 2px solid gray;
+      background: white;
+    } #sidenav li a:hover {
+        background-color: rgb(0, 250, 255);
+        border: none;
+    } #cookie {
+        background-color: white;
+        padding: 10px;
+        font-size: 11px;
+        width: 200px;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        border: 2px solid gray;
+    } #cookie button{
+        background-color: blue;
+        border: none;
+        width: 90px;
+        margin-left: 1px;
+    } #wrapper {
+        margin-top: -70px;
+    } #lock:active {
+        background: black;
+    }
