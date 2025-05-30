@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://megacraft.netlify.app/sitemap.xml
